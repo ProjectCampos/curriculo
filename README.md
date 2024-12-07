@@ -1,6 +1,4 @@
 # curriculo
-https://ProjectCampos.github.io/curriculo
+https://github.com/ProjectCampos/curriculo.git
 
-Template original
-https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
 
