@@ -1,4 +1,4 @@
 # curriculo
-https://github.com/ProjectCampos/curriculo.git
+https://github.com/ProjectCampos/curriculo
 
 
