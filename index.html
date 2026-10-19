@@ -1,389 +1,337 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giovana Campos · Portfólio</title>
+  <meta name="description" content="Portfólio de Giovana Campos, Técnica em Informática para Internet. Projetos em HTML, CSS, JavaScript, Figma e FlutterFlow.">
+  <meta name="theme-color" content="#0b0a12">
+  <meta property="og:title" content="Giovana Campos · Portfólio">
+  <meta property="og:description" content="Técnica em Informática para Internet. Conheça meus projetos e competências.">
+  <meta property="og:image" content="img/favicon.png">
   <link rel="icon" type="image/png" href="img/favicon.png">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Gp - v4.9.1
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <div class="bg-decor" aria-hidden="true"></div>
 
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-lg-between">
+  <!-- ======= Header ======= -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#hero" class="logo" aria-label="Início">GC<span>.</span></a>
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">GC<span>.</span></a></h1>
-     
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav class="nav" id="nav" aria-label="Navegação principal">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Sobre Mim</a></li>
-          <li><a class="nav-link scrollto" href="#services">Competências</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Projetos</a></li>
-          <li class="dropdown"><a href="#"><span>Instituições</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-             
-              <li class="dropdown"></a>
-                <ul>
-                  
-                </ul>
-              </li>
-              <li><a href="#">Carlos Rohm</a></li>
-              <li><a href="#">Etec Maria Cristina Medeiros</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a href="#about" class="active">Sobre</a></li>
+          <li><a href="#skills">Competências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#education">Formação</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      <a href="#about" class="get-started-btn scrollto">Vamos Começar!</a>
 
+      <a href="#contact" class="btn btn-primary btn-sm header-cta">Vamos conversar <i class="bx bx-right-arrow-alt"></i></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><i class="bx bx-menu"></i></button>
     </div>
   </header>
 
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <h1>Currículo GC<span>.</span></h1>
-          <h2>Olá, sou Giovana Campos !</h2>
+  <!-- ======= Hero ======= -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge reveal"><span class="dot"></span> Desenvolvimento web · UI Design</div>
+        <h1 class="reveal" style="--d:.08s">
+          <span class="hello">Olá, eu sou</span>
+          <span class="gradient-text">Giovana Campos</span>
+        </h1>
+        <p class="hero-role reveal" style="--d:.16s">Técnica em Informática para Internet</p>
+        <p class="hero-text reveal" style="--d:.24s">
+          Crio sites com HTML, CSS e JavaScript e protótipos de aplicativos no Figma e no FlutterFlow.
+        </p>
+        <div class="hero-actions reveal" style="--d:.32s">
+          <a href="#projects" class="btn btn-primary">Ver projetos <i class="bx bx-right-arrow-alt"></i></a>
+          <a href="#contact" class="btn btn-ghost"><i class="bx bx-envelope"></i> Entrar em contato</a>
+        </div>
+        <div class="hero-socials reveal" style="--d:.4s">
+          <a class="social" href="https://github.com/ProjectCampos" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a class="social" href="https://www.instagram.com/campoxg/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a class="social" href="https://www.facebook.com/giovana.campos.1243" target="_blank" rel="noopener" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+          <a class="social" href="mailto:giovanacampos3103@gmail.com" aria-label="E-mail"><i class="bx bx-envelope"></i></a>
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <img width="50" height="50" src="img/icons8-html-30.png" alt="javascript"/>            
-            <h3><a href="">HTML</a></h3>
-          </div>
+      <div class="hero-photo reveal" style="--d:.2s">
+        <div class="frame">
+          <img src="img/about.jpeg" alt="Foto de Giovana Campos" width="1145" height="1080">
         </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <img width="50" height="50" src="img/icons8-css-30.png" alt="javascript"/>            
-            <h3><a href="">CSS</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <img width="50" height="50" src="img/icons8-javascript-30.png" alt="javascript"/>            
-            <h3><a href="">JavaScript</a></h3>
-          </div>
-        </div>
-       
+        <div class="float-card one"><i class="bx bxl-html5" style="color:#f97316"></i> HTML · CSS · JS</div>
+        <div class="float-card two"><i class="bx bxl-figma" style="color:#c084fc"></i> UI no Figma</div>
       </div>
-
     </div>
-  </section><!-- End Hero -->
+    <a href="#about" class="scroll-hint" aria-label="Rolar para baixo"><i class="bx bx-chevron-down"></i></a>
+  </section>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="img/about.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Olá, sou a Giovana Campos, Técnica em Informática para Internet.</h3>
-            <p class="fst-italic">
-              Tenho 18 anos, e essas são as minhas competências socioemocionais:
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Sou uma pessoa muito criativa.</li>
-              <li><i class="ri-check-double-line"></i> Gosto de ajudar as pessoas ao meu redor, sou uma bastante colaborativa e empática.</li>
-              <li><i class="ri-check-double-line"></i> Aprendo com facilidade, e estou sempre buscando aprender coisas novas.</li>
-              <li><i class="ri-check-double-line"></i> Tenho bastante resiliência, e sou uma pessoa muito comunicativa.</li>
-            </ul>
-            <p>
-              Gosto sempre de resolver as coisas conversando com as pessoas, acredito que a comunicação é a base para um bom ambiente de trabalho.
-            </p>
-          </div>
+    <!-- ======= Sobre ======= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-intro reveal">
+          <span class="eyebrow">Sobre mim</span>
+          <h2 class="section-title">Criatividade, empatia e vontade de <span class="gradient-text">aprender</span>.</h2>
+          <p class="lead">Olá, sou a Giovana Campos, Técnica em Informática para Internet. Tenho 18 anos e estas são as minhas competências socioemocionais.</p>
+          <p>Gosto de resolver as coisas conversando com as pessoas: acredito que a comunicação é a base para um bom ambiente de trabalho.</p>
         </div>
 
+        <div class="traits">
+          <article class="card reveal" style="--d:.05s">
+            <div class="icon"><i class="bx bx-bulb"></i></div>
+            <h3>Criatividade</h3>
+            <p>Sou uma pessoa muito criativa.</p>
+          </article>
+          <article class="card reveal" style="--d:.12s">
+            <div class="icon"><i class="bx bx-group"></i></div>
+            <h3>Colaboração</h3>
+            <p>Gosto de ajudar as pessoas ao meu redor; sou bastante colaborativa e empática.</p>
+          </article>
+          <article class="card reveal" style="--d:.19s">
+            <div class="icon"><i class="bx bx-book-open"></i></div>
+            <h3>Aprendizado</h3>
+            <p>Aprendo com facilidade e estou sempre buscando aprender coisas novas.</p>
+          </article>
+          <article class="card reveal" style="--d:.26s">
+            <div class="icon"><i class="bx bx-conversation"></i></div>
+            <h3>Resiliência</h3>
+            <p>Tenho bastante resiliência e sou uma pessoa muito comunicativa.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Competências</h2>
-          <p>Minhas competências </p>
+    <!-- ======= Competências ======= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">Competências</span>
+          <h2 class="section-title">O que eu uso para construir na web</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <img width="50" height="50" src="img/icons8-html-30.png" alt="html"/>
-              <h4><a href="">Html</a></h4>
-              <p>Experiência na criação de estruturas semânticas e acessíveis, aplicando boas práticas de SEO e acessibilidade</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <img width="50" height="50" src="img/icons8-css-30.png" alt="css"/>
-              <h4><a href="">Css</a></h4>
-              <p>Experiência no desenvolvimento de layouts responsivos e design visuamente atraentes com CSS.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <img width="50" height="50" src="img/icons8-javascript-30.png" alt="javascript"/>
-              <h4><a href="">JavaScript</a></h4>
-              <p>Conhecimento básico em JavaScript para desenvolvimento de interatividade e funcionalidades dinâmicas em sites</p>
-            </div>
-          </div>
+        <div class="skills-grid">
+          <article class="card skill-card html reveal" style="--d:.05s">
+            <i class="bx bxl-html5 skill-icon"></i>
+            <h3>HTML</h3>
+            <p>Experiência na criação de estruturas semânticas e acessíveis, aplicando boas práticas de SEO e acessibilidade.</p>
+            <div class="tags" style="margin:22px 0 0"><span class="tag">Semântica</span><span class="tag">SEO</span><span class="tag">Acessibilidade</span></div>
+          </article>
+          <article class="card skill-card css reveal" style="--d:.12s">
+            <i class="bx bxl-css3 skill-icon"></i>
+            <h3>CSS</h3>
+            <p>Experiência no desenvolvimento de layouts responsivos e designs visualmente atraentes.</p>
+            <div class="tags" style="margin:22px 0 0"><span class="tag">Responsivo</span><span class="tag">Layouts</span><span class="tag">Design</span></div>
+          </article>
+          <article class="card skill-card js reveal" style="--d:.19s">
+            <i class="bx bxl-javascript skill-icon"></i>
+            <h3>JavaScript</h3>
+            <p>Conhecimento básico em JavaScript para criar interatividade e funcionalidades dinâmicas em sites.</p>
+            <div class="tags" style="margin:22px 0 0"><span class="tag">Interatividade</span><span class="tag">DOM</span></div>
+          </article>
         </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Projetos</h2>
-          <p>Meus Projetos</p>
-        </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/better.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>BetterHope</h4>
-                <p>Projeto de TCC</p>
-                <div class="portfolio-links">
-                  <a href="img/better.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="BetterHope"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/login.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Protótipo Aplicativo para Feira Tecnológica ETEC MCM</h4>
-                <p>Figma</p>
-                <div class="portfolio-links">
-                  <a href="img/portfolio/login.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Protótipo"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/appvi.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Aplicativo de Viagens</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="img/appvi.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-            
-
-        </div>
-
       </div>
     </section>
 
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="zoom-in">
+    <!-- ======= Projetos ======= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Projetos</span>
+          <h2 class="section-title">Trabalhos selecionados</h2>
+          <p class="section-sub">Do TCC a protótipos de aplicativo: projetos em que coloquei a mão na massa.</p>
+        </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="img/about.jpeg" class="testimonial-img" alt="">
-                <h3>Giovana Campos</h3>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Transformo desafios em oportunidades e ideias em realizações, com paixão pelo crescimento e pelo impacto positivo.                  
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
+        <div class="projects-grid">
+          <article class="card project reveal" style="--d:.05s">
+            <button class="project-thumb" data-lightbox="img/portfolio/inicio.png" aria-label="Ampliar imagem do BetterHope">
+              <img src="img/portfolio/thumb-betterhope.jpg" alt="Página inicial do site BetterHope" loading="lazy" width="960" height="600">
+              <span class="zoom"><i class="bx bx-expand-alt"></i></span>
+            </button>
+            <div class="project-body">
+              <div class="tags"><span class="tag">TCC</span><span class="tag">Site</span><span class="tag">2024</span></div>
+              <h3>BetterHope</h3>
+              <p>Site para pais de crianças com Síndrome de Down e Autismo, com informações e uma comunidade de apoio.</p>
+              <div class="project-links">
+                <a class="link-arrow" href="portfolio-details.html#betterhope">Ver detalhes <i class="bx bx-right-arrow-alt"></i></a>
               </div>
-            </div>    
+            </div>
+          </article>
+
+          <article class="card project reveal" style="--d:.12s">
+            <button class="project-thumb" data-lightbox="img/portfolio/login.png" aria-label="Ampliar imagem do protótipo">
+              <img src="img/portfolio/thumb-feira.jpg" alt="Telas do protótipo do aplicativo da Feira Tecnológica" loading="lazy" width="960" height="600">
+              <span class="zoom"><i class="bx bx-expand-alt"></i></span>
+            </button>
+            <div class="project-body">
+              <div class="tags"><span class="tag">Figma</span><span class="tag">UI Design</span><span class="tag">2024</span></div>
+              <h3>App da Feira Tecnológica ETEC MCM</h3>
+              <p>Protótipo da parte visual de um aplicativo onde professores e alunos acessam diversas ferramentas.</p>
+              <div class="project-links">
+                <a class="link-arrow" href="portfolio-details.html#feira">Ver detalhes <i class="bx bx-right-arrow-alt"></i></a>
+                <a class="link-arrow" href="https://www.figma.com/proto/AZq3tteZHM2CImsV73HEft/Untitled?node-id=0-1&amp;t=cHgkQGzAKlvwreFD-1" target="_blank" rel="noopener">Figma <i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project reveal" style="--d:.19s">
+            <button class="project-thumb" data-lightbox="img/appvi.png" aria-label="Ampliar imagem do app de viagens">
+              <img src="img/portfolio/thumb-viagens.jpg" alt="Telas do aplicativo de viagens" loading="lazy" width="960" height="600">
+              <span class="zoom"><i class="bx bx-expand-alt"></i></span>
+            </button>
+            <div class="project-body">
+              <div class="tags"><span class="tag">FlutterFlow</span><span class="tag">App</span><span class="tag">2024</span></div>
+              <h3>Aplicativo de Viagens</h3>
+              <p>App para listar lugares que quero visitar e que já visitei, com avaliação, valor e descrição da viagem.</p>
+              <div class="project-links">
+                <a class="link-arrow" href="portfolio-details.html#viagens">Ver detalhes <i class="bx bx-right-arrow-alt"></i></a>
+                <a class="link-arrow" href="https://app.flutterflow.io/share/app-viagens-cw439l" target="_blank" rel="noopener">Abrir app <i class="bx bx-link-external"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
-          
 
-    
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+    <!-- ======= Citação ======= -->
+    <section class="section" style="padding-top:20px">
+      <div class="container">
+        <figure class="quote reveal">
+          <i class="bx bxs-quote-alt-left"></i>
+          <blockquote>Transformo desafios em oportunidades e ideias em realizações, com paixão pelo crescimento e pelo impacto positivo.</blockquote>
+          <figcaption>
+            <img src="img/about.jpeg" alt="" loading="lazy">
+            <span><strong>Giovana Campos</strong>Técnica em Informática para Internet</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
 
-        <div class="section-title">
-          <h2>Contato</h2>
-          <p>Entre em contato</p>
+    <!-- ======= Formação ======= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Formação</span>
+          <h2 class="section-title">Instituições</h2>
         </div>
 
-        
-
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Localização:</h4>
-                <p>Brazil, SP</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>giovanacampos3103@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Telefone:</h4>
-                <p>+55 11 99548 2978</p>
-              </div> 
-
+        <div class="edu-grid">
+          <article class="card edu-card highlight reveal" style="--d:.05s">
+            <div class="icon"><i class="bx bxs-graduation"></i></div>
+            <div>
+              <h3>Etec Professora Maria Cristina Medeiros</h3>
+              <p>Técnico em Informática para Internet</p>
             </div>
+          </article>
+          <article class="card edu-card reveal" style="--d:.12s">
+            <div class="icon"><i class="bx bx-building-house"></i></div>
+            <div>
+              <h3>Carlos Rohm</h3>
+              <p>Instituição de ensino</p>
+            </div>
+          </article>
+          <article class="card edu-card reveal" style="--d:.19s">
+            <div class="icon"><i class="bx bx-building-house"></i></div>
+            <div>
+              <h3>Ruth Neves</h3>
+              <p>Instituição de ensino</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Carregando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada com sucesso. Obrigado!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
-
-          </div>
-
+    <!-- ======= Contato ======= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section-title">Vamos <span class="gradient-text">conversar</span>?</h2>
+          <p class="section-sub">Tem uma oportunidade, projeto ou só quer trocar uma ideia? Me manda uma mensagem.</p>
         </div>
 
+        <div class="contact-grid">
+          <div class="contact-list">
+            <a class="card contact-item reveal" href="mailto:giovanacampos3103@gmail.com">
+              <div class="icon"><i class="bx bx-envelope"></i></div>
+              <div><small>E-mail</small><span>giovanacampos3103@gmail.com</span></div>
+            </a>
+            <a class="card contact-item reveal" style="--d:.07s" href="tel:+5511995482978">
+              <div class="icon"><i class="bx bx-phone"></i></div>
+              <div><small>Telefone</small><span>+55 11 99548-2978</span></div>
+            </a>
+            <div class="card contact-item reveal" style="--d:.14s">
+              <div class="icon"><i class="bx bx-map"></i></div>
+              <div><small>Localização</small><span>São Paulo, Brasil</span></div>
+            </div>
+          </div>
+
+          <form class="card form reveal" id="contactForm" style="--d:.1s">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Assunto</label>
+              <input type="text" id="subject" name="subject" placeholder="Sobre o que vamos falar?" required>
+            </div>
+            <div class="field">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem…" required></textarea>
+            </div>
+            <div class="form-foot">
+              <span class="form-note">Abre seu app de e-mail com a mensagem pronta.</span>
+              <button type="submit" class="btn btn-primary">Enviar mensagem <i class="bx bx-send"></i></button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
   </main>
 
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>GC<span>.</span></h3>
-              <p>
-                Brazil<br>
-                 SP<br><br>
-                <strong>Telefone:</strong> +55 11 9954 82978<br>
-                <strong>Email:</strong>giovanacampos3103@gmail.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://www.facebook.com/giovana.campos.1243" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/campoxg/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/ProjectCampos" class="github"><i class="bx bxl-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Meus Serviços</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Html</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">JavaScript</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Css</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-           
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Menu</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre Mim</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
-            </ul>
-          </div>
-
-          
-
-        </div>
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#hero" class="logo">GC<span>.</span></a>
+      <p>© <span data-year>2026</span> Giovana Campos · Feito com HTML, CSS e JavaScript</p>
+      <div class="footer-socials">
+        <a class="social" href="https://github.com/ProjectCampos" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+        <a class="social" href="https://www.instagram.com/campoxg/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a class="social" href="https://www.facebook.com/giovana.campos.1243" target="_blank" rel="noopener" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
       </div>
     </div>
+  </footer>
 
-    
+  <a href="#hero" class="back-to-top" id="backToTop" aria-label="Voltar ao topo"><i class="bx bx-up-arrow-alt"></i></a>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Fechar"><i class="bx bx-x"></i></button>
+    <img src="" alt="">
+  </dialog>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
