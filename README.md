@@ -2,7 +2,7 @@
 
 **Acesse o site:** https://projectcampos.github.io/curriculo/
 
-Portfólio pessoal de Giovana Campos, Técnica em Informática para Internet. Reúne minhas competências, projetos (site de portfólio feito para o cliente [Kaiky Concept.](https://projectcampos.github.io/kaiky-concept/), TCC BetterHope, protótipo do app da Feira Tecnológica ETEC MCM e Aplicativo de Viagens) e formas de contato.
+Portfólio pessoal de Giovana Campos, Programadora de Sistemas de Informação com foco em automações no Zendesk (Atlas Inovações) e ex-Analista de Suporte (SQL, MongoDB e Postman). Técnica em Informática para Internet. Reúne minha experiência, competências, projetos (site de portfólio feito para o cliente [Kaiky Concept.](https://projectcampos.github.io/kaiky-concept/), TCC BetterHope, protótipo do app da Feira Tecnológica ETEC MCM e Aplicativo de Viagens) e formas de contato.
 
 ## Tecnologias
 
