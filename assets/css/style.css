@@ -1072,3 +1072,22 @@ button, input, textarea { font: inherit; color: inherit; }
   .project.featured .project-body { padding: 24px 24px 26px; }
   .project.featured h3 { font-size: 20px; }
 }
+
+/* ---------- Experiência ---------- */
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.exp-card .period {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 6px;
+}
+@media (max-width: 860px) {
+  .exp-grid { grid-template-columns: 1fr; }
+}
